@@ -22,7 +22,7 @@ export default function Home() {
     <main>
       {userData ? (
         <>
-          <h1 className="text-2xl font-bold mb-4">User Data </h1>
+          <h1 className="text-2xl font-bold mb-4">User Datas</h1>
           <ul>
             <li>ID : {userData.id}</li>
             <li>Name : {userData.first_name}</li>
